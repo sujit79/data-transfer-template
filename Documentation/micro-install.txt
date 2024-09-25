@@ -1,0 +1,31 @@
+1. Introduction
+	The project intends to provide bandwidth better installation networks. The bandwidth required
+to process the installation requests is bettered by encryption and compression techniques. The project
+intends to support SQL Lite/Postgres SQL/MySQL Databases. The Project supports an gdm file database core
+on these RDBMS.
+
+2. Requirements
+  	2.1. 	Provide an Network Infrastructure for the Installation Software. Provide Commands/Multiple
+		Installation Media/Infrastructure Access on Remote Machine. For example the floppy containing 
+		Micro-Install needs to download an OS for instance does needs an Fdisk/Format/Packaging Information.
+	2.2. 	Provide markup(XML) for the required Installation.
+	2.3. 	Reduce Network Bandwidth.
+	2.4.    Provide Multiple Protocol Support.
+	2.5.	Provide Multiple OS Support.
+	2.6.    Provide Caching Techniques.
+	2.7.	Provide User Name/Password Login Facility.
+	2.8.	Provide Web Interface. Provide Support for Protocols like HTTP, FTP, HTTPS for web installation Setup.
+
+3. Design.
+	3.1.	The Postgres SQL/MySQL Databases Are given GDBM Flat File Support.
+	3.2.	The Commands for File Operations like add,send,delete,copy etc. is build on top of GDBM.
+	3.3.	The Protocols like HTTP Download/FTP Dowload are added.
+	3.4.	Add Encryption.
+	3.5.	Add Compression.
+	3.6.	Add Client Functionality.
+	3.7.    Add Web Support.
+	3.8.    Add Installation Layer.
+
+4. License.
+	GPL.	
+  
